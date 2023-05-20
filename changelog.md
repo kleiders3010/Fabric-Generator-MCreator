@@ -1,5 +1,29 @@
 # Changelogs:
 
+## 1.8.8
+* [Bugfix #401] Key bindings were not displayed in the Controls menu
+* [Bugfix #402] Biomes didn't generate and caused build errors
+
+## 1.8.7
+* Updated to support the newest 2023.1 patch (and future patches)
+
+## 1.8.6
+* Updated to MCreator 2023.1.09612
+* [Bugfix #380] Get light of block procedure caused a build error (NerdyPuzzle)
+* [Bugfix #381] Is biome at procedure caused a build error (NerdyPuzzle)
+* [Bugfix #386] Ranged item `immediatesourceentity` dependency variable had the wrong name (NerdyPuzzle)
+* [Bugfix #390] Custom item damage vs mob/animal parameter did not work (NerdyPuzzle)
+
+## 1.8.5
+* [Bugfix #364] Using custom potion effects in custom potions crashed the game
+* [Bugfix #374] Blocks and items could not be generated correctly (NerdyPuzzle)
+* [Bugfix #375] Features still generated Java code in JSON files
+
+## 1.8.4
+* Updated to first MCreator 2023.1 snapshot (following the first 2022.4 snapshot)
+* [Bugfix #369] Fix missing mappings for the itemtype procedure (NerdyPuzzle)
+* [Bugfix #371] Fix mods crashing when used together (kleiders)
+
 ## 1.8.3
 * [#365] Added chinese tooltips (Grey Wind)
 * [Bugfix #355] Glowing music discs caused a build error
